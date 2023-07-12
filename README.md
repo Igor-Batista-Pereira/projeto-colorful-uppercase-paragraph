@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+📌Criei o projeto com nome de **Projeto colorful uppercase paragraph**. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔴 **O projeto deve executar as seguintes Desafios:**
 
-## Available Scripts
+ ✔️O Componente deverá **colorir** e transformar para **maiúsculo (uppercase)** utilizando JS, em um parágrafo do texto.
 
-In the project directory, you can run:
+✔️ Mostrar mensagem com a label do botão
 
-### `npm start`
+✳️Através do console do **Git Bash Here**, rodei o comando **npx create-react-app**, para baixar a biblioteca do **React**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Primeiro criei o componente text para executar o Desafio 1 - *Componente que colore e transforma um texto para maiúsculo (uppercase) utilizando JS.***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+➡️Foram criadas as pastas ***componente*** e nela a pasta ***text*** com o arquivo **text.js**, sendo ele um **componente de classe Text,** onde será trabalhado o texto. 
 
-### `npm test`
+O arquivo **App.js** faz parte da biblioteca do React, foi apenas modificado para componente ***text.js***.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./src/image/Screenshot_1.png">
 
-### `npm run build`
+No arquivo text.js, fiz algumas alterações, ao invés de usar o componente de classe alterei para o componente de função, onde foram criadas props para colorir o parágrafo com a  cor “vermelha” e deixa-lo com as letras “maiúsculas”.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./src/image/Screenshot_2.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Arquivos que foram trabalhados… Apps.js (é através dele que será renderizado no navegador o texto) e text.css (criado para estilizar o texto)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="./src/image/Screenshot_3.png">
 
-### `npm run eject`
+**Segundo criei o componente button para executar o Desafio 2 - *Mostrar mensagem com a label do botão…***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+➡️ Foram criadas as pastas componentes e nela a pasta button com os arquivos button.js e button.css.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No arquivo **button.js** foi criada um componente de função Button, para criar um botão onde terá um evento que ao clicar no botão apareça uma mensagem de alerta.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O arquivo Apps.js, como já faz parte da biblioteca do React, foi modificado para que possa renderizado navegador o **Texto** e o **Botão** criados.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./src/image/Screenshot_4.png">
 
-## Learn More
+O arquivo button.css, foi criado para estilizar o botão.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./src/image/Screenshot_5.png">
+### Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Execução do projeto - [Igor Batista](https://github.com/igor-batista-pereira)
